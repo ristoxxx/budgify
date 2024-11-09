@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import Login from "./Login";
 import Notes from "./Notes";
+import InstructionsPanel from "./InstructionsPanel";
+
 
 function App() {
   const [isAuthenticated, setIsAuthenticated] = useState(false);
@@ -34,21 +36,25 @@ function App() {
   };
 
   return (
-    <div style={{ textAlign: "center", marginTop: "50px" }}>
-      {isAuthenticated ? (
-        <>
-          <h1>Welcome, {username}!</h1>
-          <button onClick={handleLogout}>Logout</button>
-          <Notes
-            notes={notes}
-            addNote={addNote}
-            deleteNote={deleteNote}
-            updateNotePosition={updateNotePosition}
-          />
-        </>
-      ) : (
-        <Login onLogin={handleLogin} />
-      )}
+    
+    <div style={{ display: "flex" }}>
+      <InstructionsPanel />
+      <div style={{ marginLeft: "20vw", padding: "20px", width: "80vw", textAlign: "center" }}>
+        {isAuthenticated ? (
+          <>
+            <h1>Welcome, {username}!</h1>
+            <button onClick={handleLogout}>Logout</button>
+            <Notes
+              notes={notes}
+              addNote={addNote}
+              deleteNote={deleteNote}
+              updateNotePosition={updateNotePosition}
+            />
+          </>
+        ) : (
+          <Login onLogin={handleLogin} />
+        )}
+      </div>
     </div>
   );
 }
