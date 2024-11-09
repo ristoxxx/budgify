@@ -3,7 +3,6 @@ import Login from "./Login";
 import Notes from "./Notes";
 import InstructionsPanel from "./InstructionsPanel";
 
-
 function App() {
   const [isAuthenticated, setIsAuthenticated] = useState(false);
   const [username, setUsername] = useState("");
@@ -20,8 +19,8 @@ function App() {
     setNotes([]);
   };
 
-  const addNote = (text, height) => {
-    const newNote = { id: Date.now(), text, height, x: 0, y: 0 };
+  const addNote = (text, height, color) => {
+    const newNote = { id: Date.now(), text, height, color, x: 0, y: 0 };
     setNotes([...notes, newNote]);
   };
 
@@ -36,7 +35,6 @@ function App() {
   };
 
   return (
-    
     <div style={{ display: "flex" }}>
       <InstructionsPanel />
       <div style={{ marginLeft: "20vw", padding: "20px", width: "80vw", textAlign: "center" }}>

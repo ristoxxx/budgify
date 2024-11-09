@@ -3,15 +3,19 @@ import Draggable from "react-draggable";
 
 function Notes({ notes, addNote, deleteNote }) {
   const [noteText, setNoteText] = useState("");
-  const [noteHeight, setNoteHeight] = useState(100); // Default height of 100px
+  const [noteHeight, setNoteHeight] = useState(100); // Default height
+  const [noteColor, setNoteColor] = useState("#FFFFFF"); // Default color
 
   const handleAddNote = () => {
     if (noteText.trim()) {
-      addNote(noteText, noteHeight);
+      addNote(noteText, noteHeight, noteColor);
       setNoteText("");
-      setNoteHeight(100); // Reset height to default after adding the note
+      setNoteHeight(100); // Reset height to default
+      setNoteColor("#FFFFFF"); // Reset color to default
     }
   };
+
+  const colors = ["#FFFFFF", "#4a4a4a", "#555555", "#2c2c2c", "#1a1a1a"]; // Dark color options
 
   return (
     <div style={{ marginTop: "20px" }}>
@@ -31,14 +35,25 @@ function Notes({ notes, addNote, deleteNote }) {
           min="50"
           style={{ marginLeft: "5px", width: "100px" }}
         />
-        <button onClick={handleAddNote}>Add Note</button>
+        <select
+          value={noteColor}
+          onChange={(e) => setNoteColor(e.target.value)}
+          style={{ marginLeft: "5px", padding: "5px" }}
+        >
+          {colors.map((color) => (
+            <option key={color} value={color} style={{ backgroundColor: color, color: "#fff" }}>
+              {color}
+            </option>
+          ))}
+        </select>
+        <button onClick={handleAddNote} style={{ marginLeft: "5px" }}>Add Note</button>
       </div>
       <div style={{ marginTop: "20px" }}>
         {notes.map((note) => (
           <Draggable key={note.id}>
             <div
               style={{
-                backgroundColor: "#ffeb3b",
+                backgroundColor: note.color,
                 padding: "10px",
                 width: "150px",
                 height: `${note.height}px`,
@@ -46,6 +61,7 @@ function Notes({ notes, addNote, deleteNote }) {
                 position: "absolute",
                 borderRadius: "5px",
                 cursor: "move",
+                color: "#fff",
               }}
             >
               <p>{note.text}</p>
