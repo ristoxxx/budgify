@@ -1,4 +1,5 @@
 # Welcome to Budgify !
+![Grafico)](https://github.com/ristoxxx/budgify/blob/master/public/Grafico.png)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
