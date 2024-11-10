@@ -12,6 +12,9 @@ Getting Started To begin, simply hit "Start" on the platform
 Then, log in or register to access your account.
 ![Component%202%20(1).png](https://github.com/ristoxxx/budgify/blob/b237a7102cac657f606d734823cd4c1a3cd8dace/public/Component%201%20(1).png)
 
+Next, select whether you want to create a proposal as a participant or if you'd just like to observe.
+![Captura%20de%20pantalla%202024-11-10%20a%20las%2010.36.44.png](https://github.com/ristoxxx/budgify/blob/153425b15334b0949570b37b4924e00699387ed5/public/Captura%20de%20pantalla%202024-11-10%20a%20las%2010.36.44.png)
+
 1.Creating Budget Proposals
    Imagine a team wants to do several things with a limited budget. Each team member can propose how they would like to spend that money. These proposals are created within Budgify as “spending ideas,” and AI helps organize these ideas so everyone can view and understand them more easily.
 
