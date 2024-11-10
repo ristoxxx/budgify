@@ -30,7 +30,7 @@ As votes and comments come in, scenarios are updated in real time, allowing ever
 - Decision Making:
 Through an organized system of voting, commenting, and real-time feedback, the group comes to a consensus on the most supported and viable proposals, which are then finalized and implemented.
 
-![Flujo)](https://github.com/ristoxxx/budgify/blob/master/public/flujo.png)
+![Flujo)](https://github.com/ristoxxx/budgify/blob/master/public/Flujo.png)
 The platform enhances decision-making by making budget management a more collaborative, efficient, and transparent process. Its integration of AI provides actionable insights and recommendations, making it easier for teams to manage complex budgets with confidence.
 
 # Roadmap
