@@ -5,7 +5,8 @@ In other words, it’s a tool that allows groups, companies, or teams to plan ho
 #How does Budgify work? ⚙️
 Getting Started To begin, simply hit "Start" on the platform
 
-![Component 2 (1)](https://github.com/ristoxxx/budgify/blob/master/public/Component 2 (1).png)
+https://github.com/ristoxxx/budgify/blob/befc3cccac9ecfcc745fb5c61680da4ad67efc5f/public/Component%202%20(1).png
+
 
 1.Creating Budget Proposals
    Imagine a team wants to do several things with a limited budget. Each team member can propose how they would like to spend that money. These proposals are created within Budgify as “spending ideas,” and AI helps organize these ideas so everyone can view and understand them more easily.
