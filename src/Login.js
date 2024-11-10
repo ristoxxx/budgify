@@ -1,48 +1,36 @@
-import React, { useState } from "react";
+import React, { useState } from 'react';
+import { login, register } from './services/authService';
 
 function Login({ onLogin }) {
-  const [username, setUsername] = useState("");
-  const [password, setPassword] = useState("");
-  const [error, setError] = useState("");
+  const [email, setEmail] = useState('');
+  const [password, setPassword] = useState('');
+  const [isRegistering, setIsRegistering] = useState(false);
+  const [error, setError] = useState(null);
 
-  const handleSubmit = (event) => {
-    event.preventDefault();
-
-    // Mock authentication logic
-    if (username === "user" && password === "password") {
-      onLogin(username);
-    } else {
-      setError("Invalid username or password");
+  const handleAuth = async () => {
+    try {
+      const authFunction = isRegistering ? register : login;
+      const result = await authFunction(email, password);
+      if (result.token) {
+        onLogin(email);
+      } else {
+        setError(result.message);
+      }
+    } catch (err) {
+      setError("Authentication failed. Please try again.");
     }
   };
 
   return (
-    <div style={{ textAlign: "center", marginTop: "50px" }}>
-      <h2>Login</h2>
-      {error && <p style={{ color: "red" }}>{error}</p>}
-      <form onSubmit={handleSubmit}>
-        <div>
-          <label>
-            Username:
-            <input
-              type="text"
-              value={username}
-              onChange={(e) => setUsername(e.target.value)}
-            />
-          </label>
-        </div>
-        <div>
-          <label>
-            Password:
-            <input
-              type="password"
-              value={password}
-              onChange={(e) => setPassword(e.target.value)}
-            />
-          </label>
-        </div>
-        <button type="submit">Login</button>
-      </form>
+    <div>
+      <h2>{isRegistering ? "Register" : "Login"}</h2>
+      <input type="email" value={email} onChange={(e) => setEmail(e.target.value)} placeholder="Email" />
+      <input type="password" value={password} onChange={(e) => setPassword(e.target.value)} placeholder="Password" />
+      <button onClick={handleAuth}>{isRegistering ? "Register" : "Login"}</button>
+      <button onClick={() => setIsRegistering(!isRegistering)}>
+        {isRegistering ? "Switch to Login" : "Switch to Register"}
+      </button>
+      {error && <p>{error}</p>}
     </div>
   );
 }
