@@ -6,7 +6,7 @@
 URL_DB = mongodb+srv://user:password@cluster0.5dltx.mongodb.net/authDB?retryWrites=true&w=majority&appName=Cluster0
 
 ### Server Domains
-- *Backend* : budgify-backend-app.vercel.app
+- *NodeJS Backend* : budgify-backend-app.vercel.app
 - *MongoDB* : mongodb+srv://chamibot:password@cluster0.5dltx.mongodb.net/authDB?retryWrites=true&w=majority&appName=Cluster0
 
 ### Build
