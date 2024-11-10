@@ -1,5 +1,13 @@
-# Welcome to Budgify !
+# Welcome to Budgify 🙌🏻
 ![Grafico)](https://github.com/ristoxxx/budgify/blob/master/public/Grafico.png)
+
+Collaborative budgeting platform with AI to help groups and companies create and organize budgets. Members can comment, vote, and see scenarios in real time, with colors showing levels of support and enthusiasm.
+
+-> [DEMO]
+
+# 👀 [TECHNICAL WALKAROUND VIDEO!!!!!]
+[![**TECHNICAL WALKAROUND VIDEO!!!!!**]
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
