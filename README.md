@@ -21,7 +21,7 @@ The project is a collaborative platform designed to optimize budget management u
 - Popularity Indicators: The platform uses visual indicators, such as color codes, to show how popular or supported each proposal is. This adds a layer of transparency, making it clear which ideas have the most traction among members.
 
 ## Workflow
--Creation and Contribution:
+- Creation and Contribution:
 Users can either create new budget proposals or join existing ones. Proposals are enhanced by AI, which suggests optimizations and structures them clearly for collaboration.
 - Interactive Collaboration:
 Members interact with the proposals in real time, providing comments, voting, and proposing adjustments. AI ensures that the discussion stays relevant and focused on feasible budget solutions.
@@ -32,8 +32,32 @@ Through an organized system of voting, commenting, and real-time feedback, the g
 
 The platform enhances decision-making by making budget management a more collaborative, efficient, and transparent process. Its integration of AI provides actionable insights and recommendations, making it easier for teams to manage complex budgets with confidence.
 
+# Roadmap
+## Phase 1: Foundation Development
+- Budget Scenario Workspace
+- User Base
+- Fake AI for Comment Classification
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Phase 2: Beta
+- Comment Engine
+- Voting Engine
+- Project Composition Suggestions for AI
+
+## Phase 3: V1
+- Evolutive Scenarios
+- Score-Based Rejection
+  
+## Phase 4: V2
+- Public Call for Organizational Proposals
+- Public Construction Version
+- Official User Base
+- Private Organization - Project Management (Internal User Base)
+
+## Phase 4: V3
+- Intercomposable Scenarios
+- Subproject Layers
+
+____________________________________________________________________
 
 ## Available Scripts
 
