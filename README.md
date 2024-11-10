@@ -58,4 +58,23 @@ The platform enhances decision-making by making budget management a more collabo
 - Intercomposable Scenarios
 - Subproject Layers
 
+
+# Deploy 
+
+## Node / MongoDb Backend
+
+### Environment variables
+URL_DB = mongodb+srv://user:password@cluster0.5dltx.mongodb.net/authDB?retryWrites=true&w=majority&appName=Cluster0
+
+### Server Instancess
+- *NodeJS Backend* : budgify-backend-app.vercel.app
+- *MongoDB* : mongodb+srv://chamibot:password@cluster0.5dltx.mongodb.net/authDB?retryWrites=true&w=majority&appName=Cluster0
+
+### Build
+cd ./backend
+npm install
+
+### Run 
+node ./backend/index.js
+
 ____________________________________________________________________
