@@ -5,7 +5,7 @@ In other words, it’s a tool that allows groups, companies, or teams to plan ho
 #How does Budgify work? ⚙️
 Getting Started To begin, simply hit "Start" on the platform
 
-https://github.com/ristoxxx/budgify/blob/befc3cccac9ecfcc745fb5c61680da4ad67efc5f/public/Component%202%20(1).png
+![Component%202%20(1).png](https://github.com/ristoxxx/budgify/blob/befc3cccac9ecfcc745fb5c61680da4ad67efc5f/public/Component%202%20(1).png)
 
 
 1.Creating Budget Proposals
