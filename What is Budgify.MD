@@ -15,17 +15,17 @@ Then, log in or register to access your account.
 Next, select whether you want to create a proposal as a participant or if you'd just like to observe.
 ![Captura%20de%20pantalla%202024-11-10%20a%20las%2010.36.44.png](https://github.com/ristoxxx/budgify/blob/153425b15334b0949570b37b4924e00699387ed5/public/Captura%20de%20pantalla%202024-11-10%20a%20las%2010.36.44.png)
 
-1.Creating Budget Proposals
-   Imagine a team wants to do several things with a limited budget. Each team member can propose how they would like to spend that money. These proposals are created within Budgify as “spending ideas,” and AI helps organize these ideas so everyone can view and understand them more easily.
+- Creating Budget Proposals
+Imagine a team needs to allocate a limited budget across various goals. Each team member can propose their ideas on how to spend that budget. In Budgify, these ideas are entered as “spending proposals.” The platform’s AI organizes these proposals, making them easy to view and understand so the team can consider each suggestion more effectively.
 
-2. Real-Time Collaboration
+- Real-Time Collaboration
    Once the proposals are on the platform, everyone can comment, vote, and give their opinions in real-time. If someone has a good suggestion to improve a proposal, they can add it right there. The platform updates automatically with each comment and vote, so everyone can see changes instantly.
 
-3. Voting to Set Priorities
+- Voting to Set Priorities
    Budgify features a voting system where each member can vote for the proposals they like best. This helps bring the most supported ideas to the top of the list, making them priority considerations. Instead of just one person deciding, the whole team has a voice in the budget.
 
-4. Visualizing Results
+- Visualizing Results
    As team members vote and comment, Budgify shows the level of support for each proposal using colours to indicate whether it’s approved, rejected, or still under voting. This makes it easier to see which ideas have the most and least backing.
 
-5. Making Final Decisions
+ - Making Final Decisions
    In the end, Budgify helps the team decide which proposals will become a reality. The proposals with the most votes become budget priorities, ensuring that the money is spent on the ideas that matter most to the group.
