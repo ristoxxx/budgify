@@ -1,5 +1,15 @@
 # budgify-backend-app
 
+## Purpose
+
+This node application provides an API to communicate with a MongoDB database where Users ang budgetting projects will be stored during the collaborative process 
+
+Running this app requires to clear network acces to the deployed IP aaddress on Atlas MongoDB platform in order to be able to interact with it
+
+This app is a requirement for running Budgify frontend
+
+You can find afterwards the existing instances, commands to build / run and the API details with examples
+
 ## Deployment
 
 ### Environment variables
