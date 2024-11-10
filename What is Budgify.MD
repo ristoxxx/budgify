@@ -3,7 +3,7 @@
 Budgify is an online platform where multiple users can collaborate to create and manage a budget. 
 In other words, it’s a tool that allows groups, companies, or teams to plan how they will spend their money in an organized and collaborative way, using artificial intelligence (AI) to assist throughout the entire process.
 
-#How does Budgify work? ⚙️
+# How does Budgify work? ⚙️
 
 Getting Started To begin, simply hit "Start" on the platform
 
@@ -15,7 +15,7 @@ Then, log in or register to access your account.
 Next, select whether you want to create a proposal as a participant or if you'd just like to observe.
 ![Captura%20de%20pantalla%202024-11-10%20a%20las%2010.36.44.png](https://github.com/ristoxxx/budgify/blob/153425b15334b0949570b37b4924e00699387ed5/public/Captura%20de%20pantalla%202024-11-10%20a%20las%2010.36.44.png)
 
-- Creating Budget Proposals
+# Creating Budget Proposals
 Imagine a team needs to allocate a limited budget across various goals. Each team member can propose their ideas on how to spend that budget. In Budgify, these ideas are entered as “spending proposals.” The platform’s AI organizes these proposals, making them easy to view and understand so the team can consider each suggestion more effectively.
 
 - Real-Time Collaboration
@@ -23,6 +23,8 @@ Imagine a team needs to allocate a limited budget across various goals. Each tea
 
 - Voting to Set Priorities
    Budgify features a voting system where each member can vote for the proposals they like best. This helps bring the most supported ideas to the top of the list, making them priority considerations. Instead of just one person deciding, the whole team has a voice in the budget.
+
+
 
 - Visualizing Results
    As team members vote and comment, Budgify shows the level of support for each proposal using colours to indicate whether it’s approved, rejected, or still under voting. This makes it easier to see which ideas have the most and least backing.
